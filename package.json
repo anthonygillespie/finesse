@@ -1,0 +1,17 @@
+{
+  "name": "finesse",
+  "version": "1.0.0",
+  "description": "A lightweight personal finance app",
+  "main": "index.js",
+  "scripts": {
+    "start": "electron ."
+  },
+  "keywords": [
+    "finance"
+  ],
+  "author": "Anthony Gillespie",
+  "license": "ISC",
+  "devDependencies": {
+    "electron-prebuilt": "^1.4.13"
+  }
+}
