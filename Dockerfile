@@ -12,6 +12,9 @@
 #   # Run the image
 #   docker run -it -v /tmp/.X11-unix:/tmp/.X11-unix -e DISPLAY=unix$DISPLAY finesse
 #
+#	# If you get the error "no protocol specified" then try the following:
+#   xhost local:root
+#	# Then run the image again
 
 #Download base image ubuntu 16.04
 FROM ubuntu:16.04
